@@ -56,9 +56,6 @@ async function getWeatherData(city){
 
 
 
-
-
-
 function displayWeatherInfo(data){
   const {name: city,
          main: {temp, humidity},
@@ -90,7 +87,6 @@ function displayWeatherInfo(data){
 
 
 
-
 function getEmoji(weatherId){
   switch(true){
     case(weatherId >= 200 && weatherId < 300):
@@ -113,15 +109,6 @@ function getEmoji(weatherId){
    
     }
   }
-
-
-
-
-
-
-
-
-
 
 
 
