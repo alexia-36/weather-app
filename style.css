@@ -1,0 +1,13 @@
+.card{
+    display: none;
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(rgb(133, 185, 252),rgb(70, 107, 207),rgb(50, 105, 98));
+    color: #fff;
+}
+
+
+.emoji{
+    width: 10rem;
+}
+
